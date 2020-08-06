@@ -1,2 +1,4 @@
 # Portfolio
-I am creating my personal website and I will host it via GitHub Pages. Currently, It is under construction.
+I have created my personal website in this repository and It is host it via GitHub Pages.
+
+
