@@ -76,7 +76,7 @@
     <g> <h1 class="display-4">How I Have Become A Self-Taught Python Developer in 3 Years</h1> </g>
 <k> <center><p>Best Route Which You Also Can Apply</p></center> </k>
 
-<p class="lead">What I always say is that “Programming is neither so difficult nor too easy”. So, for learning programming you don’t need to much merit but you need to have much potential and passion towards programming  like, “Yes, I love programming and I will learn that.”</p>
+<p class="lead">What I always say is that “Programming is neither so difficult nor too easy”. So, for learning programming you don’t need to have much merit but you need to have good amount of potential and passion towards programming  like, “Yes, I love programming and I will learn that.”</p>
 
 <p class="lead">I guess I had the same feeling at the beginning. I was so influenced to see a quote in my textbook saying, ”Most of the students waste their time by playing video games or doing social networking in their past-time, but some special students among them learn programming in their school life and add a new skill to their skillset.” I just wanted to be the special one. From then, I determined to be a self-taught programmer.</p>
 
@@ -167,6 +167,19 @@
 <p class="lead">In this blog, I have described my timelines of learning Python programming. I hope you will be benefitted too if you follow my route.</p>
 
 </div>
+
+<m><div class="container">
+<form  method="post" action="" id="formToSave">
+                <h1>Subscribe For Latest Blogs</h1>
+                <p>Please subscribe in my website using your email address for latest updates about my blogs and publications. Dont worry! Your email address will not be published.</p>
+                <div class="email-box">
+                    <i class="fas fa-envelope"></i>
+                    <input class="tbox" type="email" name="email" id ="email" value="" placeholder="Enter Your Email Address" onclick="buildData()">
+                    <m> <button class="btn" type="submit" name="button">Subscribe</button> </m>
+                </div>
+            </form>
+</div>
+</m>
 </div>
 
 
@@ -189,6 +202,7 @@
             </div>
         </div>
     </article>
+
 </div>
 </div>
 
@@ -233,6 +247,65 @@
 </footer>
 
 <style>
+
+.jumbotron{
+margin-bottom:0px;
+}
+    m .container{
+        background: url(image/bg.jfif) center;
+        background-size: cover;
+        padding: 30px 40px;
+        text-align: center;
+        color: white;
+	font-family:"georgia";
+	margin-top:0;
+    }
+    m .container p{
+        max-width: 600px;
+        margin: 40px auto;
+        font-size: 15px;
+        font-weight: 300;
+	color: white;
+    }
+    .email-box{
+        height: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .email-box i{
+        background: #2f3542;
+        width: 40px;
+        line-height:40px;
+    }
+    .tbox{
+        border: none;
+        outline: none;
+    }
+    .tbox{
+        width: 0px;
+        transition: 0.6s;
+    }
+    .email-box:hover > .tbox, .tbox:focus{
+        width: 260px;
+        padding: 0 10px;
+    }
+    m .btn{
+        background: #2f3542;
+        color:white;
+        padding: 0 10px;
+        text-transform: uppercase;
+        cursor: pointer;
+	border: none;
+        outline: none;
+	height: 40px;
+    }
+
+
+
+
+
+
+
 .right {
   position: absolute;
   right: 25px;
@@ -551,4 +624,35 @@ font-weight: 350;
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
+
+
+
+
+<script>
+function save(){
+<!--
+function buildData(){
+    var txtData = ('#email');
+    return txtData;
+}
+
+// This will be executed when the document is ready
+$(function(){
+    // This will act when the submit BUTTON is clicked
+    $("#formToSave").submit(function(event){
+        event.preventDefault();
+        var txtData = buildData();
+        window.location.href="data:application/octet-stream;base64,"+Base64.encode(txtData);
+    });
+
+    // This will act when the submit LINK is clicked
+    $('#email').click(function(event){
+        var txtData = buildData();
+        $(this).attr('download','subscribe.txt')
+            .attr('href',"data:application/octet-stream;base64,"+Base64.encode(txtData));
+    });
+});
+//-->
+}
+</script>
 </html>
