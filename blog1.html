@@ -168,44 +168,24 @@
 <m><div class="container">
 <form  action="" method="post" id="formToSave">
                 <h1>Subscribe For Latest Blogs</h1>
-                <p>Please subscribe in my website using your email address for latest updates about my blogs and publications. Dont worry! Your email address will not be published.</p>
+                <p>Please subscribe in my website by pressing the subscribe button for latest updates about my blogs and publications. Dont worry! Your email address will not be published.</p>
                 <div class="email-box">
                     <i class="fas fa-envelope"></i>
-                    <input class="tbox" type="email" name="email" id ="email" value="" placeholder="Enter Your Email Address">
-                    <m> <a href ="blog.html"><button class="btn" type="submit" name="button" onclick="saveFile()" >Subscribe</button> </a></m>
+                    <input class="tbox" type="email" name="email" id ="email" value="" placeholder="Please send the email" 
+                     ondblclick="saveFile()">
+                    <m> <a  class="btn" type="submit" name="button" href="mailto:ahammadshawki8@gmail.com?subject=Subscription &body=I want to subscribe to Ahammad's personal Website. I will like to have latest blogs and newsletters from his website in future. EOM">Subscribe</a></m>
                 </div>
             </form>
 </div>
 </m>
 </div>
-
 <script>
-    let saveFile = () => {
-        
-        // Get the data from each element on the form.
-    	const email = document.getElementById('email');
-    	// This variable stores all the data.
-        let data = email.value;
-        
-        // Convert the text to BLOB.
-        const textToBLOB = new Blob([data], { type: 'text/plain' });
-        
-        let newLink = document.createElement("a");
-        sFileName = "subscription.txt"
-        newLink.download = sFileName;
-        
-        if (window.webkitURL != null) {
-                newLink.href = window.webkitURL.createObjectURL(textToBLOB);
-            }
-            else {
-                    newLink.href = window.URL.createObjectURL(textToBLOB);
-                    newLink.style.display = "none";
-                    document.body.appendChild(newLink);
-                }
-                
-            newLink.click(); 
-            }
-        </script>
+	function saveFile() {
+		window.location.href = "mailto:ahammadshawki8@gmail.com?subject=Subscription &body=I want to subscribe to Ahammad's personal Website. I will like to have latest blogs and newsletters from his website in future. EOM";
+	} 
+</script>
+
+
 
         
         
@@ -317,14 +297,13 @@ margin-bottom:0px;
     m .btn{
         background: #2f3542;
         color:white;
-        padding: 0 10px;
+        padding: 10px 10px;
         text-transform: uppercase;
         cursor: pointer;
 	    border: none;
         outline: none;
 	    height: 40px;
     }
-
 
 
 
