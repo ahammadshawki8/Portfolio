@@ -67,196 +67,277 @@
   </div>
 </nav>
 
+<style>
+.container{
+margin-top:30px;
+}
+</style>
 
 
 
 
-<div class="container"> 
-<h5 class="card-header  display-4">Programming Projects</h5>
-<div class="jumbotron">
-<div class="card border-success mb-3">
-  <img src="image/program/arctic.jpg" class="card-img-top" alt="...">
+<div class="container">
+
+<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="1000">
+      <img src="image/program/arctic.jpg" class="d-block w-100" alt="...">
+    </div>
+
+    <div class="carousel-item" data-interval="1000">
+      <img src="image/program/zoom_pic.jpg" class="d-block w-100" alt="...">
+    </div>
+
+    <div class="carousel-item" data-interval="1000">
+      <img src="image/program/rps.jpg" class="d-block w-100" alt="...">
+    </div>
+
+    <div class="carousel-item" data-interval="1000">
+      <img src="image/program/sudoku.jpg" class="d-block w-100" alt="...">
+    </div>
+
+    <div class="carousel-item" data-interval="1000">
+      <img src="image/program/pygame.jpg" class="d-block w-100" alt="...">
+    </div>
+
+    <div class="carousel-item" data-interval="1000">
+      <img src="image/program/data_structures.jpg" class="d-block w-100" alt="...">
+    </div>
+
+  </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
 </div>
- <h1 class="display-4">Arctic Code Vault Contibutor</h1>
-    <p class="lead">I have been recognized as one of the programmers who contributed to "The GitHub Arctic Code Vault". It is a data repository preserved in the Arctic World Archive (AWA), a very-long-term archival facility 250 meters deep in the permafrost of an Arctic mountain. The archive is located in a decommissioned coal mine in the Svalbard archipelago, closer to the North Pole than the Arctic Circle.</p>
-    <a class="btn btn-success" href="https://archiveprogram.github.com/" role="button">Learn More</a>
-</div>
 
-<div class="jumbotron">
-<div class="card border-success mb-3">
-  <img src="image/program/zoom_pic.jpg" class="card-img-top" alt="...">
-</div>
- <h1 class="display-4">Zoom_Assistant</h1>
-    <p class="lead">Zoom_Assistant is a simple Python program which is specially designed for the students who have to attend zoom online classes in the pandemic situation. The most annoying part of online classes is that manually search through the class routine and teacher's zoom ID and password's list before each class. Zoom Assistant will do that work automatically in just 5 seconds!</p>
+
+
+
+<h5 class="card-header display-4">Programming Projects</h5>
+
+<div class="card-deck">
+
+  <div class="card border-success mb-3">
+    <img src="image/program/arctic.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Arctic Code Vault Contibutor</h5>
+      <p class="card-text">I have been recognized as one of the programmers who contributed to "The GitHub Arctic Code Vault". It is a data repository preserved in the Arctic World Archive (AWA), a very-long-term archival facility 250 meters deep in the permafrost of an Arctic mountain. The archive is located in a decommissioned coal mine in the Svalbard archipelago, closer to the North Pole than the Arctic Circle.</p>
+      <a class="btn btn-success" href="https://archiveprogram.github.com/" role="button">Learn More</a>
+    </div>
+  </div>
+
+  <div class="card border-success mb-3">
+    <img src="image/program/zoom_pic.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Zoom_Assistant</h5>
+      <p class="card-text">Zoom_Assistant is a simple Python program which is specially designed for the students who have to attend zoom online classes in the Corona pandemic situation. The most annoying part of online classes is that manually search through the class routine and teacher's zoom ID and password's list and then fill up the form before each class. Zoom Assistant will do that work  automatically for you in just 5 seconds!</p>
     <a class="btn btn-success" href="https://github.com/ahammadshawki8/Zoom_Assistant" role="button">Code</a>
-</div>
+    </div>
+  </div>
 
-<div class="jumbotron">
-<div class="card border-success mb-3">
-  <img src="image/program/head_tail.jpg" class="card-img-top" alt="...">
-</div>
- <h1 class="display-4">Head Tail</h1>
-    <p class="lead">Head-Tail is basically a friendly version of Cricket which is played using fingers. Me and my friends are used to playing this game during boring lectures! This game is the official game of HTC (Head Tail Community). Every rules that you will see in this game are approved by the authority of HTC. It has Graphical User Interface which has been created using pygame library of Python3.</p>
+  <div class="card border-success mb-3">
+    <img src="image/program/head_tail.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Head Tail</h5>
+      <p class="card-text">Head-Tail is basically a friendly version of Cricket which is played using fingers. Me and my friends are used to playing this game during boring lectures! This game is the official game of HTC (Head Tail Community). Every rules that you will see in this game are approved by the authority of HTC. It has Graphical User Interface which has been created using pygame library of Python3.</p>
     <a class="btn btn-success" href="https://github.com/ahammadshawki8/Head-Tail" role="button">Code</a>
     <a class="btn btn-success" href="https://drive.google.com/file/d/1vn4Tengt9IPggugi5rSLz3x9XNTywp9-/view?usp=sharing" role="button">Gameplay</a>
-</div>
+    </div>
+	 </div>
 
-<div class="jumbotron">
-<div class="card border-success mb-3">
-  <img src="image/program/Portfolio.jpg" class="card-img-top" alt="...">
-</div>
- <h1 class="display-4">Personal Portfolio</h1>
-    <p class="lead">I have created my personal website with Html, Css and JavaScript. I am hosting it via GitHub pages. My website contains all my works, projects, Eca's , blogs and other informations about me.</p>
+
+ </div>
+
+
+<div class="card-deck">
+
+  <div class="card border-success mb-3">
+    <img src="image/program/Portfolio.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Personal Portfolio</h5>
+      <p class="card-text">I have created my personal website with Html, Css and JavaScript. I am hosting it via GitHub pages. My website contains all my Works, Projects, Extra Curriculur Activities, Certificates, Blogs, Books and other informations about me. Even you can hire me directly using this website. </p>
     <a class="btn btn-success" href="https://github.com/ahammadshawki8/Portfolio" role="button">Code</a>
+    </div>
 </div>
 
-<div class="jumbotron">
-<div class="card border-success mb-3">
-  <img src="image/program/mail.jpg" class="card-img-top" alt="...">
-</div>
- <h1 class="display-4">Mail_Book</h1>
-    <p class="lead">Mail_Book is a text-based non-GUI programme which simply helps you to manage your known emails. Using this Mail_Book, you can add, update and search email addresses. This programme is so simple that even a 10-year kid can operate this. Though it is created with Python3, it is also compatible with command line.</p>
+  <div class="card border-success mb-3">
+      <img src="image/program/mail.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Mail_Book</h5>
+      <p class="card-text">Mail_Book is a text-based programme which simply helps you to manage your known emails. Using this Mail_Book, you can add, update and search email addresses. This programme is beginner-frindly. Though it is created with Python3, it is also compatible with command line.</p>
     <a class="btn btn-success" href="https://github.com/ahammadshawki8/Mail_Book" role="button">Code</a>
-</div>
+    </div>
+  </div>
 
-<div class="jumbotron">
-<div class="card border-success mb-3">
-  <img src="image/program/rps.jpg" class="card-img-top" alt="...">
-</div>
- <h1 class="display-4">Rock-Paper-Scissors</h1>
-    <p class="lead">GUI based Rock-Paper-Scissors game created using Pygame. You can play this game just by clicking on the GUI window. Several facilities of rock-paper-scissors are simmilar to the Head-Tail game which I have created before.</p>
+  <div class="card border-success mb-3">
+    <img src="image/program/rps.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Rock-Paper-Scissors</h5>
+      <p class="card-text">A GUI based Rock-Paper-Scissors game created using Pygame. You can select different target level and play this game just by clicking on the GUI window. Several facilities of rock-paper-scissors are simmilar to the Head-Tail game which I have created before.</p>
     <a class="btn btn-success" href="https://github.com/ahammadshawki8/Rock-Paper-Scissors" role="button">Code</a>
     <a class="btn btn-success" href="https://drive.google.com/file/d/1Pt6MNiyH8ncgNkiazmrIfV2Rx_nB-pJc/view?usp=sharing" role="button">Gameplay</a>
+    </div>
+  </div>
+
 </div>
 
-<div class="jumbotron">
+<div class="card-deck">
 <div class="card border-success mb-3">
   <img src="image/program/tic.jpg" class="card-img-top" alt="...">
-</div>
- <h1 class="display-4">Tic-Tac-Turtle</h1>
-    <p class="lead">A Tic-Tac-Toe game which is made by Ahammad and Arko. Turtle library of Python have been used in this game for graphics and visualization. For graphics and visualization pygame library of Python have been used in this game. You can play this game using a smooth GUI application and your results will be showed there. This is a multiplayer offline game which can be played in both mobile and pc.</p>
+  <div class="card-body">
+<h5 class="card-title">Tic-Tac-Turtle</h5>
+    <p class="card-text">A Tic-Tac-Toe game which is made by Ahammad and Arko. Turtle library of Python have been used in this game for graphics and visualization. For graphics and visualization pygame library of Python have been used in this game. You can play this game using a smooth GUI application and your results will be showed there. This is a multiplayer offline game which can be played in both mobile and pc.</p>
     <a class="btn btn-success" href="https://github.com/ahammadshawki8/Tic-Tac-Turtle" role="button">Code</a>
     <a class="btn btn-success" href="https://drive.google.com/file/d/1dbRBD9WeIyfJRCkwI_eYwI1oL9zKmfTk/view?usp=sharing" role="button">Gameplay</a>
-    
-</div>
+  </div>
+  </div>
 
-<div class="jumbotron">
-<div class="card border-success mb-3">
-  <img src="image/program/sudoku.jpg" class="card-img-top" alt="...">
-</div>
- <h1 class="display-4">Sudoku Generator and Solver</h1>
-    <p class="lead">A GUI program written in Pygame using backtracking algorithm to generate sudokus and solve them. Here 3 algorithms have been used to generate random sudokus, play it manually and solve it automatically. You can follow the Tutorials folder to learn about the algorithms specifically step by step.</p>
+  <div class="card border-success mb-3">
+      <img src="image/program/sudoku.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Sudoku Generator and Solver</h5>
+      <p class="card-text">A GUI program written in Pygame using backtracking algorithm to generate sudokus and solve them. Here 3 algorithms have been used to generate random sudokus, play it manually and solve it automatically. There is a timer to keep track on the timing to solve the sudoku. You can follow the Tutorials folder to learn about the algorithms specifically step by step which have been used in this game.</p>
     <a class="btn btn-success" href="https://github.com/ahammadshawki8/Sudoku-Generator-and-Solver" role="button">Code</a>
     <a class="btn btn-success" href="https://drive.google.com/file/d/1gCSdyx-XqYlmO003shApCJ30VAvriihy/view?usp=sharing" role="button">Gameplay</a>
-</div>
+    </div>
+  </div>
 
-<div class="jumbotron">
-<div class="card border-success mb-3">
-  <img src="image/program/pygame.jpg" class="card-img-top" alt="...">
-</div>
- <h1 class="display-4">GameDev with Pygame</h1>
-    <p class="lead">Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language. I have created a GitHub repository where Game development using Pygame has been briefly described through creation of cool 2D and 3D games.</p>
+  <div class="card border-success mb-3">
+    <img src="image/program/pygame.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">GameDev with Pygame</h5>
+      <p class="card-text">Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python. I have created a GitHub repository where Game development using Pygame has been briefly described through creation of a game named "Goblin's Field". After learning Pygame, you can create cool 2D and 3D games too.</p>
     <a class="btn btn-success" href="https://github.com/ahammadshawki8/GameDev-with-Pygame" role="button">Code</a>
+    </div>
+  </div>
+
 </div>
 
-<div class="jumbotron">
+
+
+<div class="card-deck">
 <div class="card border-success mb-3">
   <img src="image/program/matplotlib.jpg" class="card-img-top" alt="...">
-</div>
- <h1 class="display-4">Matplotlib Tutorials</h1>
-    <p class="lead">Matplotlib is one of the best python third party library which is used for plotting different types data. I have created a GitHub repository on Matplotlib where I have broadlyly described how to visualize data by creating line plots, vertical and horizontal bar graphs, pie plots, histograms, scatter plots, stack plots and many more.</p>
+  <div class="card-body">
+<h5 class="card-title">Matplotlib Tutorials</h5>
+    <p class="card-text">Matplotlib is one of the best python third party library which is used for plotting different types data. I have created a GitHub repository on Matplotlib where I have broadlyly described how to visualize data by creating line plots, vertical and horizontal bar graphs, pie plots, histograms, scatter plots, stack plots and many more.</p>
     <a class="btn btn-success" href="https://github.com/ahammadshawki8/Matplotlib-Tutorials" role="button">Code</a>
-</div>
+  </div>
+  </div>
 
-<div class="jumbotron">
-<div class="card border-success mb-3">
-  <img src="image/program/pandas.jpg" class="card-img-top" alt="...">
-</div>
- <h1 class="display-4">Playing with Pandas</h1>
-    <p class="lead">Pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series. It is my favourite library. I have created a GitHub repository where I have broadly described data analysis with Pandas.</p>
+  <div class="card border-success mb-3">
+      <img src="image/program/pandas.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Playing with Pandas</h5>
+      <p class="card-text">Pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series. It is my favourite library. I have created a GitHub repository where I have broadly described data analysis with Pandas.</p>
     <a class="btn btn-success" href="https://github.com/ahammadshawki8/Playing-With-Pandas" role="button">Code</a>
-</div>
+    </div>
+  </div>
 
-<div class="jumbotron">
-<div class="card border-success mb-3">
-  <img src="image/program/numpy.jpg" class="card-img-top" alt="...">
-</div>
- <h1 class="display-4">Numpy Journey</h1>
-    <p class="lead">NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays. It is the backbone of many important libraries like Pandas, Matplotlib, SciPy etc. Fundamental library for Data Science. I have created a GitHub repository where I have broadly described the basics and beyond basics knowledge about NumPy with sufficient code examples.</p>
+  <div class="card border-success mb-3">
+    <img src="image/program/numpy.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Numpy Journey</h5>
+      <p class="card-text">NumPy is a library of the Python, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions. I have created a GitHub repository where I have broadly described the basics and beyond basics knowledge about NumPy with sufficient code examples.</p>
     <a class="btn btn-success" href="https://github.com/ahammadshawki8/NumPy-Journey" role="button">Code</a>
+    </div>
+  </div>
+
 </div>
 
-<div class="jumbotron">
+
+<div class="card-deck">
 <div class="card border-success mb-3">
   <img src="image/program/command.jpg" class="card-img-top" alt="...">
-</div>
- <h1 class="display-4">Command Line Fundamentals</h1>
-    <p class="lead">The command line is a text interface for your computer. It's a program that takes in commands, which it passes on to the computer's operating system to run. There is hardly any project without little bit of command line code. So, I have created a GitHub repository where I discussed how to code in CMD and powershell and also discussed about sys and os standerd module of python. </p>
+  <div class="card-body">
+<h5 class="card-title">Command Line Fundamentals</h5>
+    <p class="card-text">The command line is a text interface which takes in commands and passes them to the computer's operating system to run. Almost every projects have command line codes. So, I have created a GitHub repository where I discussed about how to code in CMD and PowerShell and also sys, os standard modules of python and virtual environments. </p>
     <a class="btn btn-success" href="https://github.com/ahammadshawki8/Command-Line-Fundamentals" role="button">Code</a>
-</div>
+  </div>
+  </div>
 
-<div class="jumbotron">
-<div class="card border-success mb-3">
-  <img src="image/program/data_structures.jpg" class="card-img-top" alt="...">
-</div>
- <h1 class="display-4">DSA Implementations in Python</h1>
-    <p class="lead">Knowledge of "Data Structures and Algorithms" is one of the basic needs to become a good programmer. So, I have created a GitHub repository which contains implemetations of different data structures and algorithms in Python.</p>
+  <div class="card border-success mb-3">
+      <img src="image/program/data_structures.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">DSA Implementations in Python</h5>
+      <p class="card-text">Knowledge of "Data Structures and Algorithms" is one of the basic needs to become a good programmer. Without learning this, you can't get into any renowned company because you can't pass their interview questions. So, I have created a GitHub repository which contains implemetations of different data structures and algorithms in Python.</p>
     <a class="btn btn-success" href="https://github.com/ahammadshawki8/DSA-Implementations-in-Python" role="button">Code</a>
-</div>
+    </div>
+  </div>
 
-<div class="jumbotron">
+
 <div class="card border-success mb-3">
   <img src="image/program/term.jpg" class="card-img-top" alt="...">
-</div>
- <h1 class="display-4">Programming Terms</h1>
-    <p class="lead">Every programmer have to work in a group or a team. In, group chats they have to use lots of programming terms. So, I have created a GitHub repository for beginner programmers where lots of programming terms have been described.</p>
+  <div class="card-body">
+<h5 class="card-title">Programming Terms</h5>
+    <p class="card-text">Every programmer has to work in a group or a team. In, group chats they have to use lots of programming terms. Sometimes, people have to face difficulties in their projects as they aren't aware of few important programming terms. So, I have created a GitHub repository for beginner programmers where lots of programming terms have been described.</p>
     <a class="btn btn-success" href="https://github.com/ahammadshawki8/Programming-Terms" role="button">Code</a>
+  </div>
+  </div>
+
 </div>
 
-<div class="jumbotron">
+<div class="card-deck">
 <div class="card border-success mb-3">
   <img src="image/program/standard.jpg" class="card-img-top" alt="...">
-</div>
- <h1 class="display-4">Standard Libraries of Python</h1>
-    <p class="lead">Python Developers has already created many basic and beyond basic code implementations and they are stored in the standerd modules of Python. So, every python beginners need to learn little bit of standerd modules. I have described some basic standerd libraries codes in this GitHub repository.</p>
+  <div class="card-body">
+<h5 class="card-title">Standard Libraries of Python</h5>
+    <p class="card-text">Python Developers has already created many basic and beyond basic code implementations and they are stored in the standerd modules of Python. So, every python beginners need to learn little bit of standerd modules. I have described some basic standerd libraries codes in this GitHub repository.</p>
     <a class="btn btn-success" href="https://github.com/ahammadshawki8/Standard-Libraries-of-Python" role="button">Code</a>
-</div>
+  </div>
+  </div>
 
-<div class="jumbotron">
 <div class="card border-success mb-3">
   <img src="image/program/oop.jpg" class="card-img-top" alt="...">
-</div>
- <h1 class="display-4">Object Oriented Programming</h1>
-    <p class="lead">Python is a great programming language that supports OOP. You will use it to define a class with attributes and methods, which you will then call. I have created a Github repository for Python programmers to learn to code in a object oriented way.</p>
+  <div class="card-body">
+<h5 class="card-title">Object Oriented Programming</h5>
+    <p class="card-text">Python is a great programming language that supports Object Oriented Programming. You will use it to define a class with attributes and methods, which you will then call in the later parts of your program. I have created a Github repository for Python programmers to learn to code in a object oriented way.</p>
     <a class="btn btn-success" href="https://github.com/ahammadshawki8/Object-Oriented-Programming-in-Python" role="button">Code</a>
-</div>
+  </div>
+  </div>
 
-
-
-<div class="jumbotron">
-<div class="card border-success mb-3">
-  <img src="image/program/basics.jpg" class="card-img-top" alt="...">
-</div>
- <h1 class="display-4">Python Basics</h1>
-    <p class="lead">Python is an interpreted, high-level, general-purpose programming language. I have created a repository on GitHub for beginner programmers as well as programmers of different language who wants to start their coding journey in Python. Lots of basics topics has been covered there with sufficient examples</p>
+  <div class="card border-success mb-3">
+      <img src="image/program/basics.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Python Basics</h5>
+      <p class="card-text">Python is an interpreted, high-level, general-purpose programming language. I have created a repository on GitHub for beginner programmers as well as programmers of different language who wants to start their coding journey in Python. Lots of basics topics has been covered there with sufficient examples.</p>
     <a class="btn btn-success" href="https://github.com/ahammadshawki8/Python-Basics" role="button">Code</a>
-</div>
+    </div>
+  </div>
 
-<div class="jumbotron">
+  <!-- <div class="jumbotron">
 <div class="card border-success mb-3">
   <img src="image/program/fun.jpg" class="card-img-top" alt="...">
 </div>
  <h1 class="display-4">Fun Coding</h1>
     <p class="lead">I have created a GitHub reporsitory in which I have converted some real world's math's and science's theories and laws into code and facilitated to calculate them using Python Implementation.</p>
     <a class="btn btn-success" href="https://github.com/ahammadshawki8/Fun-Coding" role="button">Code</a>
+</div> -->
+
+
+
+</div>
+
 </div>
 </div>
-
-
 </div>
-
-
-
 
 
 <footer>
@@ -291,10 +372,6 @@
  </div>
    <p class="footer-bottom-text">&copy Ahammad Shawki 2020. All Rights' Reserved.</p>
 </footer>
-
-
-
-
 
 <style>
 
@@ -344,7 +421,10 @@ font-size: 15px;
 font-style: italic;
 line-height: 0.00001;
 }
-
+.card-header{
+margin-top:30px;
+background:#fff;
+}
 }
 
 @media only screen and (max-width: 767px){
@@ -371,6 +451,7 @@ padding-left:3px;
 }
 
 
+
 .container{
 margin-top:30px;
 margin-bottom:60px;
@@ -378,6 +459,7 @@ margin-bottom:60px;
 
 .card-header{
 margin-top:30px;
+background:#fff;
 }
 
 
@@ -472,14 +554,15 @@ h2{
    padding: 13px;
 }
 
-.card-header{
-margin-top:30px;
-background:#fff;
-}
-
 @media only screen and (min-width: 768px) and (max-width: 991px){
    .md-mb-30{
 margin-bottom: 30px;
+}
+.card-title{
+    font-size:20px;
+}
+.card-text{
+   font-size:18px;
 }
 }
 
@@ -496,14 +579,11 @@ padding: 50px 0;
    font-size:12px;
 }
 
-.display-4{
-font-size:40px;
-}
-
 .card-header{
 font-size:32px;
 font-weight: 375;
 }
+
 } 
 
 </style>
