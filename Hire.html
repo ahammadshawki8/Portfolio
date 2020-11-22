@@ -74,44 +74,53 @@
 
 <div class="container"> 
 <div class="jumbotron">
-  <h1 class="display-4">Hire me!</h1>
+	 <h1 class="display-4">Hire me!</h1>
   <p class="lead">I’m interested in internship opportunities in Data science, Software Engineering and all other Python developer opportunities. I am available for the next internship cycle (2021 summer).  Send me an email if you think I am a good match for your company.</p>
   <hr class="my-4">
   <p>Don't forget to see my resume, cover video and developer story to know better about me.</p>
   <a class="btn btn-success" href="https://drive.google.com/file/d/1bKxaOt7JstUb54EwryUiYvzIljpAs3eM/view?usp=sharing" role="button">Resume</a>
   <a class="btn btn-success" href="https://drive.google.com/file/d/10ABvxC258O41oLNValA01VYBtmohCfRl/view?usp=sharing" role="button">Cover Video</a>
-  <a class="btn btn-success extra" href="https://stackoverflow.com/story/ahammadshawki8" role="button">Developer Story</a>
+  <a class="btn btn-success extram" href="https://stackoverflow.com/story/ahammadshawki8" role="button">Developer Story</a>
 
 </div>
 
+
+<h1 class="display-4 extra">Work Experience</h1>
+<hr class="my-4">
+
 <div class="jumbotron">
-  <h1 class="display-4">Work Experience</h1>
-
-
-<article class="row single-post mt-5 no-gutters">
-<div class="col-md-12">
-            <div class="image-wrapper float-left pr-3">
-                <img class="center" src="image/poster.jpg" alt="">
-            </div>
-<div class="single-post-content-wrapper p-3">
-<h5 class="mt-0">Founder and CEO</h5>
-<p class="lead">The AS8 Organization</p>
-    Founded the AS8 organization in 2019. Since then, this organization has taken several initiatives and successfully completed all of them. It has taught and guided more than thirty students to start their coding career. It has also designed several logos and posters. The AS8 organization also has created multiple websites for personal and commercial use.
+<div class="card mb-3 new" style="max-width: 1000px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="image/poster.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body newend">
+        <h5 class="mt-0">Founder and CEO</h5>
+		<p class="lead">The AS8 Organization</p>
+        <p class="card-text">Founded the AS8 organization in 2019. Since then, this organization has taken several initiatives and successfully completed all of them. It has taught and guided more than thirty students to start their coding career. It has also designed several logos and posters. The AS8 organization also has created multiple websites for personal and commercial use.</p>
+      </div>
+    </div>
   </div>
-</article>
+</div>
+</div>
 
-<article class="row single-post mt-5 no-gutters">
-<div class="col-md-12">
-            <div class="image-wrapper float-left pr-3">
-                <img class="center" src="image/Code_loop.jpg" alt="">
-            </div>
-<div class="single-post-content-wrapper p-3">
+<div class="jumbotron">
+<div class="card mb-3 new" style="max-width: 1000px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="image/Code_loop.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body newend">
 <h5 class="mt-0">Founder and President</h5>
 <p class="lead">Code Loop</p>
-    Code Loop is a programming circle which was founded in 2020. In Code Loop, members discuss about programming, solve coding problems and work in programming projects together.
+        <p class="card-text">Code Loop is a programming circle which was founded in 2020. In Code Loop, members discuss about programming, solve coding problems and work in programming projects together.</p>
+      </div>
+    </div>
   </div>
-</article>
-
+</div>
+</div>
 </div>
 
 </div>
@@ -158,6 +167,13 @@
 
 
 <style>
+.new{
+  background-color: #e9ecef;
+  border-color: #e9ecef;
+}
+.extra{
+  margin-top: 70px;
+}
 
 .header-top{
    clear: both;
@@ -183,6 +199,10 @@ padding-left:100px;
 }
 
 @media only screen and (max-width: 983px) and (min-width: 767px){
+.newend{
+  padding-top: 0px;
+}
+
 .header-top{
    clear: both;
    background: #0FCA42;
@@ -209,6 +229,12 @@ line-height: 0.00001;
 }
 
 @media only screen and (max-width: 767px){
+
+
+.newend{
+  padding-left: 0px;
+}
+
 .header-top{
 padding: 40px 0;
 }
@@ -340,7 +366,7 @@ margin-bottom: 30px;
 
 @media only screen and (max-width: 767px){
 @media only screen and (max-width: 428px){
-.extra{
+.extram{
 
 	margin-top: 6px;
 }
@@ -357,12 +383,7 @@ padding: 50px 0;
    padding: 10px;
    font-size:12px;
 }
-.center{
-  display: block;
-  margin-left: 20px;
-  margin-right: 180px;
-  margin-bottom: 15px;
-}
+
 .display-4{
 font-size:35px;
 font-weight: 350;
