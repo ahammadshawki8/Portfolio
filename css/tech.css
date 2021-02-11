@@ -1,0 +1,229 @@
+k .display-4 {
+    height: 47px;
+    margin-top: 30px;
+}
+
+.extra {
+    margin-top: 70px;
+}
+
+.header-top {
+    clear: both;
+    background: #0FCA42;
+    padding: 80px 0;
+}
+
+o h5 {
+    font-family: Georgia;
+    color: #fff;
+    top: 50px;
+    height: 50px;
+    font-size: 50px;
+    padding-left: 100px;
+}
+
+o p5 {
+    font-family: Georgia;
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 0.00001;
+    padding-left: 100px;
+}
+
+.container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.card-header {
+    margin-top: 30px;
+    background: #fff;
+}
+
+
+p {
+    color: #111;
+    line-height: 25px;
+}
+
+h2,
+h3 {
+    color: #fff;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.footer-top {
+    clear: both;
+    background: #0FCA42;
+    padding: 50px 0;
+}
+
+.segment-one h3 {
+    font-family: Courgette;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 5px 0;
+}
+
+.segment-two h2 {
+    font-family: Georgia;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.segment-two h2:before {
+    content: "|";
+    color: #111;
+    padding-right: 10px;
+}
+
+.segment-two ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.segment-two ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 40px;
+}
+
+.segment-two ul li a {
+    color: #111;
+    text-decoration: none;
+}
+
+.segment-three h2 {
+    font-family: Georgia;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.segment-three h2:before {
+    content: "|";
+    color: #111;
+    padding-right: 10px;
+}
+
+.segment-three a {
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+
+.segment-three a i {
+    font-size: 26px;
+    color: #0FCA42;
+    padding: 7px 7px;
+}
+
+.footer-bottom-text {
+    font-family: Georgia;
+    color: #0FCA42;
+    text-align: center;
+    background: #fff;
+    line-height: 10px;
+    padding: 13px;
+}
+
+@media only screen and (max-width: 983px) and (min-width: 767px) {
+    .header-top {
+        clear: both;
+        background: #0FCA42;
+        padding: 50px 0;
+    }
+
+    o h5 {
+        font-family: Georgia;
+        color: #fff;
+        height: 28px;
+        font-size: 35px;
+        right: 100px 0;
+        padding-right: 3px;
+    }
+
+    o p5 {
+        font-family: Georgia;
+        color: #fff;
+        font-size: 15px;
+        font-style: italic;
+        line-height: 0.00001;
+    }
+
+    .card-header {
+        margin-top: 30px;
+        background: #fff;
+    }
+
+    .md-mb-30 {
+        margin-bottom: 30px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header-top {
+        padding: 40px 0;
+    }
+
+    o h5 {
+        font-family: Georgia;
+        color: #fff;
+        height: 19px;
+        font-size: 30px;
+        right: 100px 0;
+        padding-left: 3px;
+    }
+
+    o p5 {
+        font-family: Georgia;
+        color: #fff;
+        font-size: 12px;
+        font-style: italic;
+        line-height: 0.00001;
+        padding-left: 3px;
+    }
+
+    .sm-mb-30 {
+        margin-bottom: 30px;
+    }
+
+    .footer-top {
+        padding: 50px 0;
+    }
+
+    .footer-bottom-text {
+        line-height: 10px;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .card-header {
+        font-size: 32px;
+        font-weight: 375;
+    }
+
+    k .display-4 {
+        font-size: 32px;
+        font-weight: 350;
+        height: 20px;
+    }
+}
