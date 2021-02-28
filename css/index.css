@@ -1,3 +1,17 @@
+.container .tech {
+    margin-top: 100px;
+    height: 45px;
+}
+.container .skill {
+    max-height: 120px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+.container .skill:hover{
+    transform: scale(1.15);
+}
+
 ola .lead{
 	margin-top: -15px;
 }
@@ -170,6 +184,17 @@ h2{
 
 
 @media only screen and (max-width: 983px) and (min-width: 767px){
+    .container .tech {
+        margin-top: 80px;
+        font-size: 45px;
+        height: 35px;
+    }
+    .container .skill {
+        max-height: 100px;
+        margin-right: 20px;
+        margin-bottom: 35px;
+    }
+
     header{
         background-image: url("../image/head2.jpg");
         background-size: cover;
@@ -207,6 +232,17 @@ h2{
 }
 
 @media only screen and (max-width: 767px){
+    .container .tech {
+        margin-top: 50px;
+        font-size: 35px;
+        height: 25px;
+    }
+    .container .skill {
+        max-height: 75px;
+        margin-right: 15px;
+        margin-bottom: 30px;
+    }
+
     header {
         background-image: none;
         height: 20vh;

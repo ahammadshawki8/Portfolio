@@ -146,6 +146,10 @@ h2 {
 
 
 @media only screen and (max-width: 983px) and (min-width: 767px) {
+    k .lead{
+    height: 15px;
+    }
+
     .newend {
         padding-top: 0px;
     }
