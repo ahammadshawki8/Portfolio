@@ -1,3 +1,22 @@
+#scroll-btn {
+    color: #0FCA42;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+    transition-property: border-radius;
+    transition-duration: 1s;
+}
+
+#scroll-btn:hover {
+    color: #fff;
+    background-color: #0FCA42;
+    border-radius: 30px;
+}
+
+
 .container .tech {
     margin-top: 100px;
     height: 45px;
@@ -39,16 +58,6 @@ k .display-4{
 }
 
 
-o a {
-    transition-duration: 4s;
-    transition-delay: 1s;
-}
-
-o a:hover {
-    color:black;
-    background-color: black;
-    text-decoration: none;
-}
 
 o h5{
     font-family: Georgia;
@@ -58,6 +67,14 @@ o h5{
     text-align: left;
     height: 73px;
     padding-left: 20px;
+}
+
+o #name {
+    text-decoration: none;
+}
+
+o h5:hover {
+    color: #0FCA42;
 }
 
 o h4{
@@ -232,6 +249,9 @@ h2{
 }
 
 @media only screen and (max-width: 767px){
+    o #scroll-btn{
+        display:none;
+    }
     .container .tech {
         margin-top: 50px;
         font-size: 35px;
